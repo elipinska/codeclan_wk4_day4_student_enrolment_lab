@@ -25,18 +25,18 @@ Part 4
 - Create a view to show all the students DONE
 
 Part 5
-- Create a view to create a new student
-  - hard code a drop down of house names
+- Create a view to create a new studentnDONE
+  - hard code a drop down of house names DONE
 
 Part 6
 
 A house can be one of Fire, Water, Earth or Air and should be stored in the database with:
   - A name
-  - Optionally, a url for a logo
+  - Optionally, a url for a logo DONE
 
   - Create a table for houses
   - Create a ruby model that can save() the details of a house
-  - Seed the database
+  - Seed the database DONE
 
 Part 7
   - Add a method to House to find all houses

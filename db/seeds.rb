@@ -1,4 +1,5 @@
 require_relative('../models/student')
+require_relative('../models/house')
 
 Student.delete_all()
 
@@ -10,3 +11,15 @@ student2.save()
 
 student3 = Student.new({'first_name'=> 'Hermione', 'second_name'=>'Granger', 'house'=>'Water', 'age'=>'16'})
 student3.save()
+
+air = House.new({'name' => 'Air', 'url'=>''})
+air.save()
+
+water = House.new({'name' => 'Water', 'url'=>''})
+water.save()
+
+fire = House.new({'name' => 'Fire', 'url'=>'blah'})
+fire.save()
+
+earth = House.new({'name' => 'Earth', 'url'=>'boo'})
+earth.save()

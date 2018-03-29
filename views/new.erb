@@ -1,0 +1,22 @@
+<h1>Add new student</h1>
+<form method="post" action="/students">
+  <label for="first-name">First name:</label>
+  <input id ="first-name" type="text" name="first_name"/>
+
+  <label for="second-name">Second name:</label>
+  <input id ="second-name" type="text" name="second_name"/>
+
+  <label for="house-select">House:</label>
+  <select id="house-select" name="house">
+    <option value="Air">Air</option>
+    <option value="Water">Water</option>
+    <option value="Fire">Fire</option>
+    <option value="Earth">Earth</option>
+  </select>
+
+  <label for="age">Age:</label>
+  <input id ="age" type="number" name="age"/>
+
+  <input type="submit" value="Add student"/>
+
+</form>

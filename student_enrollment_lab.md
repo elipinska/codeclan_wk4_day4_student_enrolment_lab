@@ -22,7 +22,7 @@ Part 3
   - find a student by id DONE
 
 Part 4
-- Create a view to show all the students
+- Create a view to show all the students DONE
 
 Part 5
 - Create a view to create a new student

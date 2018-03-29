@@ -9,16 +9,16 @@ get '/students' do
   erb(:index)
 end
 
-# get '/students/new' do
-#   @houses = House.all
-#   erb(:new)
-# end
-#
-# post '/students' do
-#   Student.new(params).save
-#   redirect to '/students'
-# end
-#
+get '/students/new' do
+  # @houses = House.all
+  erb(:new)
+end
+
+post '/students' do
+  Student.new(params).save
+  redirect to '/students'
+end
+
 # get '/students/:id' do
 #   @student = Student.find(params['id'])
 #   erb(:show)

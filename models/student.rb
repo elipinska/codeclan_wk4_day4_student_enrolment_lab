@@ -57,6 +57,14 @@ class Student
      return House.find(@house)
    end
 
+   def update()
+     sql = "UPDATE students
+            SET (first_name, second_name, house, age) = ($1, $2, $3, $4)
+            WHERE id = $5"
+     values = [@first_name, @second_name, @house, @age, @id]
+     SqlRunner.run(sql, values)
+   end
+
 
 
 end

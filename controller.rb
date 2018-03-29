@@ -5,8 +5,8 @@ require_relative('models/house')
 
 get '/students' do
   puts "Index Route"
-  # @students = Student.all
-  # erb(:index)
+  @students = Student.all
+  erb(:index)
 end
 
 # get '/students/new' do

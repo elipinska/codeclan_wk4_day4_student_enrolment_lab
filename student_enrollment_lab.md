@@ -13,13 +13,13 @@ Part 1:
  - Create a table for students DONE
 
 Part 2
- - Create a ruby model that can save() a students details
- - Create some seed data to populate the database with students
+ - Create a ruby model that can save() a students details DONE
+ - Create some seed data to populate the database with students DONE
 
 Part 3
 - Add methods to a student to
-  - find all the students
-  - find a student by id
+  - find all the students DONE
+  - find a student by id DONE
 
 Part 4
 - Create a view to show all the students

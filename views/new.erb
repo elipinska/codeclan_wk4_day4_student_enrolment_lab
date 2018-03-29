@@ -8,10 +8,9 @@
 
   <label for="house-select">House:</label>
   <select id="house-select" name="house">
-    <option value="1">Air</option>
-    <option value="2">Water</option>
-    <option value="3">Fire</option>
-    <option value="4">Earth</option>
+    <% @houses.each do |house| %>
+    <option value="<%=house.id%>"><%=house.name%></option>
+    <% end %>
   </select>
 
   <label for="age">Age:</label>

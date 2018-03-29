@@ -39,12 +39,12 @@ A house can be one of Fire, Water, Earth or Air and should be stored in the data
   - Seed the database DONE
 
 Part 7
-  - Add a method to House to find all houses
-  - Add a method to House to find a house by id
+  - Add a method to House to find all houses DONE
+  - Add a method to House to find a house by id DONE
 
 Part 8
-  - Alter the student to have a foreign key to House instead of text
-  - Add a method to Student to find a house() for the student
+  - Alter the student to have a foreign key to House instead of text DONE
+  - Add a method to Student to find a house() for the student 
 
 Part 9
   - Change the new Student form to populate the drop down from the houses table

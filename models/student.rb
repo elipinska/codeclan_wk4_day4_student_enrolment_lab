@@ -10,7 +10,7 @@ class Student
      @id = options['id'].to_i if options['id']
      @first_name = options['first_name']
      @second_name = options['second_name']
-     @house = options['house']
+     @house = options['house'].to_i
      @age = options['age'].to_i
    end
 
@@ -51,6 +51,10 @@ class Student
 
     return Student.new(result[0])
 
+   end
+
+   def find_house()
+     return House.find(@house)
    end
 
 
